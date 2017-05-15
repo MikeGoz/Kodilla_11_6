@@ -1,0 +1,58 @@
+/* Kodilla task 11_6 */
+
+@import url('https://fonts.googleapis.com/css?family=Coustard');
+
+body {
+	background-color: green;
+	font-family: 'Coustard', serif;
+}
+h1 {
+	color: #BFED37;
+	font-size: 60px;
+	text-align: center;
+}
+.column {
+	float: left;
+	width: 250px;
+	background-color: #BFED37;
+	border-radius: 5px;
+	margin-top: 30px;
+  	margin-right: 20px;
+ 	margin-left: 20px;
+ 	padding: 20px;
+ 	padding-top: 5px;
+}
+.column-list {
+	padding: 10px;
+	margin-top: 10px;
+	list-style-type: none;
+}
+.column-list .card {
+	border: solid 2px black;
+	margin-top: 10px;
+	cursor: pointer;
+	background-color: #FFFB0A;
+	border-radius: 10px;
+	padding: 10px;
+}
+.column .column-title {
+	text-align: center;
+}
+.add-card {
+	border-radius: 10px;
+	font-size: 10px;
+	background-color: black;
+	color: white;
+}
+.btn-delete {
+	float: right;
+	font-size: 10px;
+	border-radius: 7px;
+}
+.create-column {
+	cursor: pointer;
+	font-size: 15px;
+	border-radius: 5px;
+	background-color: black;
+	color: white;
+}
